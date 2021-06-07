@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="thanks.php" method="post" id="form">
+        <div id="input">
+            <label for="Nom">Nom :</label>
+            <input type="text" id="Nom" name="user_lname">
+        </div>
+
+        <div id="input">
+            <label for="Prenom">Prenom :</label>
+            <input type="text" id="Prenom" name="user_fname">
+        </div>
+
+        <div id="input">
+            <label for="sujet">C'est à quel sujet ?</label>
+
+            <select name="sujets" id="selecSsujet">
+
+                <option value="">Choisissez votre sujet</option>
+                <option value="Karma">Le karma</option>
+                <option value="Méditation">La méditation</option>
+                <option value="TravauxManuels">Les travaux manuels</option>
+            
+            </select>
+
+        </div>
+
+        <div id="input">
+            <label for="mail">e-mail :</label>
+            <input type="email" id="email" name="user_mail">
+        </div>
+
+            <div> </div>
+
+        <div id="input">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="telephone" name="user_phone">
+        </div>
+
+            <div> </div>
+
+        <div id="input">
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="message"></textarea>
+        </div>
+
+            <div> </div>
+
+        <div  class="button" id="input">
+            <button  type="submit">Envoyer votre message</button>
+        </div>
+
+    </form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(211, 162, 240);
+}
+
+#form{
+    display : flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+#input{
+    margin-top: 10px;
+}
